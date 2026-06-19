@@ -1,0 +1,17 @@
+name = "AutoBessel"
+uuid = "3a787369-39e1-4456-a790-d1d2406e5d7e"
+version = "0.1.0"
+
+[workspace]
+projects = ["test"]
+
+[deps]
+Arblib = "fb37089c-8514-4489-9461-98f9c8763369"
+Bessels = "0e736298-9ec6-45e8-9647-e4fc86a2fe38"
+Gamma = "a0844989-3bd2-4988-8bea-c9407ab0941b"
+
+[compat]
+Arblib = "1"
+Bessels = "0.2"
+Gamma = "1"
+julia = "1.10"
